@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <link href="./base.css" rel="stylesheet" type="text/css" />
+  <link href="./navbar.css" rel="stylesheet" type="text/css" />
+  <link href="./login.css" rel="stylesheet" type="text/css" />
+</head>
+<html>
+  <body>
+    <div class="navbar">
+      <div class="title" onclick="location.href = './index.html'">
+        Cards Against Humanity
+      </div>
+      <div class="filler"></div>
+    </div>
+
+    <div class="container">
+      <div class="black-card">
+        <div class="bottom-card"></div>
+        <div class="second-card">
+          <label><br />There are currently x<br />rooms available.</label>
+        </div>
+
+        <div class="third-card">
+          <label><br />Please enter your login<br />details to continue.</label>
+        </div>
+      </div>
+      <div class="white-card">
+        <div class="username-or-email-card">
+          <input type="text" placeholder="Username or Email" />
+        </div>
+        <div class="password-card">
+          <input type="password" placeholder="Password" />
+        </div>
+        <div class="login-card">
+          <input type="button" class="login-btn" value="Login" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
