@@ -1,7 +1,74 @@
-body, html {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.black-card-small {
+  background: transparent;
+  /* size values stolen from soul */
+  margin: 5px;
+  padding: 10px;
+  min-width: 140px;
+  width: 140px;
+  height: 200px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  position: relative;
+
+  border: 1px solid #bebebe;
+  border-radius: 10px;
+  background: black;
+  color: white;
+
+  padding: 15px;
+
+  box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.black-card-small * {
+  background: black;
+  font-size: 18px;
+}
+
+.white-card-small {
+  background: transparent;
+  /* values stolen from soul */
+  margin: 5px;
+  padding: 10px;
+  min-width: 140px;
+  width: 140px;
+  height: 200px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  position: relative;
+
+  border: 1px solid #bebebe;
+  border-radius: 10px;
+  background: white;
+  color: black;
+
+  padding: 15px;
+
+  box-shadow: -3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+}
+.white-card-small * {
+  background: white;
+  font-size: 18px;
+}
+
+.white-card-small:hover {
+  transform: scale(1.1);
+}
+
+.white-card-small:active {
+  background: silver;
 }
