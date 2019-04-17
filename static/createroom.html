@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="./base.css" rel="stylesheet" type="text/css">
+    <link href="./navbar.css" rel="stylesheet" type="text/css">
+    <link href="./createroom.css" rel="stylesheet" type="text/css">
+</head>
+<html>
+<body>
+    <div class="navbar">
+        <div class="title" onclick="location.href = './index.html'">Cards Against Humanity</div>
+        <div class="filler"></div>
+    </div>
+
+    <div class="container">
+        <div class="black-card">
+            <div>Create a room</div><br>
+            <div>The room's name is <span>_______________________</span></div><br>
+            <div><span>___________________________</span> cards are dealt to the players.</div><br>
+            <div>The room is <span>_________________________</span></div>
+        </div>
+        <div class="white-card">
+            <div class="bottom-card"></div>
+            <div class="second-card"></div>
+            <div class="name-card">
+                <input type="text" placeholder="Roomname">
+            </div>
+            <div class="dealt-card">
+                <input type="number" min="1" max="15" placeholder="Cards dealt">
+            </div>
+            <div class="publicity-card">
+                <select placeholder="Publicity">
+                    <option value="Public">Public</option>
+                    <option value="Private">Private</option>
+                </select>
+            </div>
+            <div class="register-card">
+                <input type="button" class="register-btn" value="Create room">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
