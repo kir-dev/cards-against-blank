@@ -7,3 +7,4 @@ Our goal is to create an online version of the famous Cards Against Humanity tab
 * Szi Ádám - [@SoulEvans07](https://github.com/soulevans07)
 * Schauer Norbert - [@schnorbert](https://github.com/schnorbert)
 * Domján Réka - [@rekad97](https://github.com/rekad97)
+* Nagy Máté - [@nmate980829](https://github.com/nmate980829)
