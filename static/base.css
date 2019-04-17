@@ -72,3 +72,60 @@ html {
 .white-card-small:active {
   background: silver;
 }
+
+.white-card-proto {
+  position: relative;
+  height: 420px;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+  padding: 15px;
+  box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.black-card-proto {
+  position: relative;
+  margin: 0 20px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 420px;
+  max-height: 420px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-rot-3{
+  transform: rotate(-3deg);
+}
+
+.card-rot-2-5{
+  transform: rotate(-2.5deg);
+}
+.card-rot-2{
+  transform: rotate(-2deg);
+}
+
+.card-rot-1{
+  transform: rotate(-1deg);
+}
+
+.card-rot1{
+  transform: rotate(1deg);
+}
+
+.card-rot2{
+  transform: rotate(2deg);
+}
+
+.card-rot2-5{
+  transform: rotate(2.5deg);
+}
+
+.card-rot3{
+  transform: rotate(3deg);
+}
