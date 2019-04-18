@@ -73,6 +73,39 @@ html {
   background: silver;
 }
 
+.white-card-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.confirm-btn {
+  margin: 5px 0 0 0;
+  background: black;
+  color: #ffffff;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+  padding: 10px;
+
+  width: 5%;
+  align-self: center;
+}
+.confirm-btn:hover {
+  background: #191919;
+}
+
+.confirm-btn:active {
+  background: #191919;
+}
+
+.black-and-placeholder-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
 .white-card-proto {
   position: relative;
   height: 420px;
@@ -99,33 +132,33 @@ html {
   box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
-.card-rot-3{
+.card-rot-3 {
   transform: rotate(-3deg);
 }
 
-.card-rot-2-5{
+.card-rot-2-5 {
   transform: rotate(-2.5deg);
 }
-.card-rot-2{
+.card-rot-2 {
   transform: rotate(-2deg);
 }
 
-.card-rot-1{
+.card-rot-1 {
   transform: rotate(-1deg);
 }
 
-.card-rot1{
+.card-rot1 {
   transform: rotate(1deg);
 }
 
-.card-rot2{
+.card-rot2 {
   transform: rotate(2deg);
 }
 
-.card-rot2-5{
+.card-rot2-5 {
   transform: rotate(2.5deg);
 }
 
-.card-rot3{
+.card-rot3 {
   transform: rotate(3deg);
 }
