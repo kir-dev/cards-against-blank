@@ -1,10 +1,24 @@
-# Cards Against ____
+# README
 
-Our goal is to create an online version of the famous Cards Against Humanity table top game. Players should be able to create rooms, join them and play with their friends or any other people.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-# Developers
+Things you may want to cover:
 
-* Szi Ádám - [@SoulEvans07](https://github.com/soulevans07)
-* Schauer Norbert - [@schnorbert](https://github.com/schnorbert)
-* Domján Réka - [@rekad97](https://github.com/rekad97)
-* Nagy Máté - [@nmate980829](https://github.com/nmate980829)
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
