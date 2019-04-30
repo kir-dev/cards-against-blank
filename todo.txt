@@ -1,0 +1,8 @@
+deck
+card
+ruby 2.5.3
+rails 5.2.2
+install for windows help
+https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.5.5-1/rubyinstaller-devkit-2.5.5-1-x64.exe
+https://www.jetbrains.com/student/
+https://guides.rubyonrails.org/getting_started.html
