@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :rooms
+  resources :players
   resources :users
   resources :decks
   resources :black_cards

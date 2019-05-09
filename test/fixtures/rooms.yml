@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  game_started: false
+  visibility: 1
+  owner: 
+  czar: 
+  players: 
+
+two:
+  name: MyString
+  game_started: false
+  visibility: 1
+  owner: 
+  czar: 
+  players: 
